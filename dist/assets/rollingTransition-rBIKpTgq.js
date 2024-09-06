@@ -1,0 +1,1 @@
+const i=(o,s)=>{const n=window.scrollY,e=o-n;let r=0;const t=()=>{r+=10;const c=l(r,n,e,s);window.scrollTo(0,c),r<s&&setTimeout(t,10)};t()},l=(o,s,n,e)=>(o/=e/2,o<1?n/2*o*o+s:(o--,-n/2*(o*(o-2)-1)+s));export{i as s};

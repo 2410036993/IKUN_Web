@@ -1,0 +1,1 @@
+import{r as t}from"./request-n9dUwLq9.js";const r="/article",a=e=>t({url:r+`/${e.page}/${e.limit}`}),n=()=>t({url:r+"/group"}),o=()=>t({url:r+"/hot"}),u=()=>t({url:r+"/recommend"}),c=()=>t({url:r+"/website"}),i=()=>t({url:r+"/count"}),l=e=>t({url:r+"/search",params:{value:e}});export{o as a,n as b,u as c,a as d,i as e,c as g,l as s};

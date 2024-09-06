@@ -1,0 +1,1 @@
+import{r as t}from"./request-n9dUwLq9.js";const r="/article",l=e=>t({url:r+`/detail/${e}`}),n=e=>t({url:r+`/entire/${e.page}/${e.limit}`,params:{type:e.type,name:e.name}}),s=()=>t({url:r+"/label"}),o=()=>t({url:r+"/pigeonhole/count"}),a=e=>t({url:r+`/pigeonhole/${e.page}/${e.limit}`});export{n as a,o as b,a as c,l as d,s as g};

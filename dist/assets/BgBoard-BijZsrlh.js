@@ -1,0 +1,1 @@
+import{_ as a,c as o,j as c,f as s,t as e}from"./index-CanqdiPq.js";const n={class:"box-xk"},i={class:"title"},r={class:"wa"},_={__name:"BgBoard",props:{title:String,wengan:String},setup(t){return(d,l)=>(o(),c("div",n,[s("div",i,e(t.title),1),s("div",r,e(t.wengan),1)]))}},g=a(_,[["__scopeId","data-v-fcda45b0"]]);export{g as B};
